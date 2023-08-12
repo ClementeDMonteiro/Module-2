@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Index Lab 1</title>
+    <meta name="description" content="this is for the lab 1">
+    <meta name="author" content="Clemente">
+    <meta name="keywords" content="html, css, javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+  </head>
+  <body>
+    <form method="POST" action="http://localhost:3000/profile">
+        <div>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName">
+        </div>
+          
+        <div>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName">
+        </div>
+          
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+        <div>
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+          
+        <div>
+            <label>Hobbies:</label>
+            <input type="checkbox" id="reading" name="hobbies" value="reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+            <label for="traveling">Traveling</label>
+        </div>
+          
+        <div>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="brazil">Brazil</option>
+              <option value="france">France</option>
+            </select>
+        </div>
+          
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="form.html">Form</a> 
+    </nav>
+
+  </body>
+</html>
